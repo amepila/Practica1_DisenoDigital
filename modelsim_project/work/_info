@@ -1,0 +1,283 @@
+m255
+K4
+z2
+!s11f vlog 2021.1 2021.02, Feb  3 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/ie704453/Desktop/HDL_Code/adder_generate_gates/MSim_Project
+valu
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 DXx4 work 7 pkg_alu 0 22 bN:zQgmHo:XHXLi[@mEUO1
+!s110 1663798533
+!i10b 1
+!s100 XEi@bSH@l<Hk9=K>YDFEm1
+I<JU<928]TGVY]JQ=3ShW[3
+S1
+Z2 dC:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/modelsim_project
+w1663791566
+8C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/alu.sv
+FC:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/alu.sv
+!i122 5
+L0 23 177
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OV;L;2021.1;73
+r1
+!s85 0
+31
+!s108 1663798533.000000
+!s107 C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/alu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/alu.sv|
+!i113 1
+Z5 o-work work -sv
+Z6 tCvgOpt 0
+vbin_7seg
+R0
+R1
+Z7 !s110 1663798534
+!i10b 1
+!s100 NM;JFP]R69?f8dhEjFdzz0
+I;lAbT>47_fzd@flL8iJ]a2
+S1
+R2
+Z8 w1663791414
+8C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/bin_7seg.sv
+FC:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/bin_7seg.sv
+!i122 6
+L0 11 28
+R3
+R4
+r1
+!s85 0
+31
+Z9 !s108 1663798534.000000
+!s107 C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/bin_7seg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/bin_7seg.sv|
+!i113 1
+R5
+R6
+vbin_to_bcd
+R0
+R1
+R7
+!i10b 1
+!s100 IfcH8e;deUBSnc^mZjhE33
+IV`14im@WBmB03EKakNQHh1
+S1
+R2
+w1663792228
+8C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/bin_to_bcd.sv
+FC:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/bin_to_bcd.sv
+!i122 7
+L0 13 32
+R3
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/bin_to_bcd.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/bin_to_bcd.sv|
+!i113 1
+R5
+R6
+vcomplement_a2
+R0
+R1
+R7
+!i10b 1
+!s100 @A=BNBg1H<OQI6fLfN6^J2
+I@ndFKCUSIBP4m3BJ6z]z`1
+S1
+R2
+R8
+8C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/complement_a2.sv
+FC:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/complement_a2.sv
+!i122 8
+L0 11 12
+R3
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/complement_a2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/complement_a2.sv|
+!i113 1
+R5
+R6
+vcontrol
+R0
+R1
+R7
+!i10b 1
+!s100 4F=MQ;`2T>?Y1F=WQDBX53
+IJUm1[PiE7_3iZ@z;aVR;N2
+S1
+R2
+w1663792588
+8C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/control.sv
+FC:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/control.sv
+!i122 9
+L0 13 112
+R3
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/control.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/control.sv|
+!i113 1
+R5
+R6
+vdisplays
+R0
+R1
+Z10 !s110 1663798535
+!i10b 1
+!s100 @WKGJod^khczgkmoL?<hW1
+I2MJ2_NX:8PEoD9I6l=SJz2
+S1
+R2
+w1663792552
+8C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/displays.sv
+FC:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/displays.sv
+!i122 10
+L0 11 42
+R3
+R4
+r1
+!s85 0
+31
+Z11 !s108 1663798535.000000
+!s107 C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/displays.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/displays.sv|
+!i113 1
+R5
+R6
+vpipo
+R0
+R10
+!i10b 1
+!s100 eg?AJiJDXnR>h]of16dhT0
+I^`jER8M^BWz55gzJTl>P^3
+S1
+R2
+R8
+8C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/pipo.sv
+FC:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/pipo.sv
+!i122 11
+Z12 L0 12 18
+R3
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/pipo.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/pipo.sv|
+!i113 1
+R5
+R6
+vpipo_u
+R0
+R10
+!i10b 1
+!s100 z@KOkYI`TPEk]CCL[_Te50
+Io?7HMCHX<?^o9cIhCm;Lb2
+S1
+R2
+R8
+8C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/pipo_u.sv
+FC:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/pipo_u.sv
+!i122 12
+R12
+R3
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/pipo_u.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/pipo_u.sv|
+!i113 1
+R5
+R6
+Xpkg_alu
+R0
+R10
+!i10b 1
+!s100 egJI=0;3hzUf>R_;^ej<D3
+IbN:zQgmHo:XHXLi[@mEUO1
+S1
+R2
+R8
+8C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/pkg_alu.sv
+FC:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/pkg_alu.sv
+!i122 13
+L0 12 0
+VbN:zQgmHo:XHXLi[@mEUO1
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/pkg_alu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/pkg_alu.sv|
+!i113 1
+R5
+R6
+vtb_alu
+R0
+R1
+Z13 !s110 1663798536
+!i10b 1
+!s100 kRGWK03k3F<F@n^M=I`?Z3
+IiRPIIGBJ4Mz25WgT9XOIe2
+S1
+R2
+w1663793106
+8C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/tb/tb_alu.sv
+FC:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/tb/tb_alu.sv
+!i122 15
+L0 21 129
+R3
+R4
+r1
+!s85 0
+31
+Z14 !s108 1663798536.000000
+!s107 C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/tb/tb_alu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/tb/tb_alu.sv|
+!i113 1
+R5
+R6
+vtop_alu
+R0
+R1
+R13
+!i10b 1
+!s100 `jJoQ:_VXU]@Kl80c31_41
+IL5hRM5;Vf3jeI]zTCK5UU0
+S1
+R2
+w1663792702
+8C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/top_alu.sv
+FC:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/top_alu.sv
+!i122 14
+L0 12 98
+R3
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/top_alu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/src/top_alu.sv|
+!i113 1
+R5
+R6

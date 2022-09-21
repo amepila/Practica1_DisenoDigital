@@ -1,0 +1,117 @@
+# Compile of alu.sv failed with 1 errors.
+# Compile of bin_7seg.sv failed with 1 errors.
+# Compile of bin_to_bcd.sv failed with 1 errors.
+# Compile of complement_a2.sv failed with 4 errors.
+# Compile of control.sv failed with 1 errors.
+# Compile of displays.sv failed with 4 errors.
+# Compile of pipo.sv was successful.
+# Compile of pipo_u.sv was successful.
+# Compile of pkg_alu.sv was successful.
+# Compile of top_alu.sv was successful.
+# Compile of tb_alu.sv was successful.
+# 11 compiles, 6 failed with 12 errors.
+# Compile of alu.sv was successful.
+# Compile of bin_7seg.sv was successful.
+# Compile of bin_to_bcd.sv was successful.
+# Compile of complement_a2.sv was successful.
+# Compile of control.sv was successful.
+# Compile of displays.sv was successful.
+# Compile of pipo.sv was successful.
+# Compile of pipo_u.sv was successful.
+# Compile of pkg_alu.sv was successful.
+# Compile of top_alu.sv was successful.
+# Compile of tb_alu.sv was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.tb_alu
+# vsim -gui work.tb_alu 
+# Start time: 17:16:09 on Sep 21,2022
+# Loading sv_std.std
+# Loading work.pkg_alu
+# Loading work.tb_alu
+# Loading work.top_alu
+# Loading work.pipo
+# Loading work.pipo_u
+# Loading work.control
+# Loading work.alu
+# Loading work.displays
+# Loading work.complement_a2
+# Loading work.bin_to_bcd
+# Loading work.bin_7seg
+add wave -position insertpoint  \
+sim:/tb_alu/UUT/clk \
+sim:/tb_alu/UUT/rst \
+sim:/tb_alu/UUT/load1 \
+sim:/tb_alu/UUT/load2 \
+sim:/tb_alu/UUT/i_control \
+sim:/tb_alu/UUT/i_num \
+sim:/tb_alu/UUT/o_zero \
+sim:/tb_alu/UUT/o_ready \
+sim:/tb_alu/UUT/o_overflow \
+sim:/tb_alu/UUT/o_carry \
+sim:/tb_alu/UUT/o_negative \
+sim:/tb_alu/UUT/o_result \
+sim:/tb_alu/UUT/o_segments \
+sim:/tb_alu/UUT/w_topwires
+add wave -position insertpoint  \
+sim:/tb_alu/UUT/PIPO_A/clk \
+sim:/tb_alu/UUT/PIPO_A/rst \
+sim:/tb_alu/UUT/PIPO_A/en \
+sim:/tb_alu/UUT/PIPO_A/i_data \
+sim:/tb_alu/UUT/PIPO_A/o_data
+add wave -position insertpoint  \
+sim:/tb_alu/UUT/PIPO_B/clk \
+sim:/tb_alu/UUT/PIPO_B/rst \
+sim:/tb_alu/UUT/PIPO_B/en \
+sim:/tb_alu/UUT/PIPO_B/i_data \
+sim:/tb_alu/UUT/PIPO_B/o_data
+add wave -position insertpoint  \
+sim:/tb_alu/UUT/PIPO_CTRL/clk \
+sim:/tb_alu/UUT/PIPO_CTRL/rst \
+sim:/tb_alu/UUT/PIPO_CTRL/en \
+sim:/tb_alu/UUT/PIPO_CTRL/i_data \
+sim:/tb_alu/UUT/PIPO_CTRL/o_data
+add wave -position insertpoint  \
+sim:/tb_alu/UUT/CONTROL/clk \
+sim:/tb_alu/UUT/CONTROL/rst \
+sim:/tb_alu/UUT/CONTROL/i_load1 \
+sim:/tb_alu/UUT/CONTROL/i_load2 \
+sim:/tb_alu/UUT/CONTROL/i_ready \
+sim:/tb_alu/UUT/CONTROL/o_enableA \
+sim:/tb_alu/UUT/CONTROL/o_enableB \
+sim:/tb_alu/UUT/CONTROL/o_selector \
+sim:/tb_alu/UUT/CONTROL/o_start \
+sim:/tb_alu/UUT/CONTROL/o_ready \
+sim:/tb_alu/UUT/CONTROL/r_state
+add wave -position insertpoint  \
+sim:/tb_alu/UUT/ALU/i_numberA \
+sim:/tb_alu/UUT/ALU/i_numberB \
+sim:/tb_alu/UUT/ALU/control \
+sim:/tb_alu/UUT/ALU/enable \
+sim:/tb_alu/UUT/ALU/o_result \
+sim:/tb_alu/UUT/ALU/o_zero \
+sim:/tb_alu/UUT/ALU/o_ready \
+sim:/tb_alu/UUT/ALU/o_overflow \
+sim:/tb_alu/UUT/ALU/o_carry \
+sim:/tb_alu/UUT/ALU/o_negative
+add wave -position insertpoint  \
+sim:/tb_alu/UUT/PIPO_FLAGS/clk \
+sim:/tb_alu/UUT/PIPO_FLAGS/rst \
+sim:/tb_alu/UUT/PIPO_FLAGS/en \
+sim:/tb_alu/UUT/PIPO_FLAGS/i_data \
+sim:/tb_alu/UUT/PIPO_FLAGS/o_data
+add wave -position insertpoint  \
+sim:/tb_alu/UUT/PIPO_OUT/clk \
+sim:/tb_alu/UUT/PIPO_OUT/rst \
+sim:/tb_alu/UUT/PIPO_OUT/en \
+sim:/tb_alu/UUT/PIPO_OUT/i_data \
+sim:/tb_alu/UUT/PIPO_OUT/o_data
+add wave -position insertpoint  \
+sim:/tb_alu/UUT/DISPLAY/clk \
+sim:/tb_alu/UUT/DISPLAY/rst \
+sim:/tb_alu/UUT/DISPLAY/i_start \
+sim:/tb_alu/UUT/DISPLAY/i_bin \
+sim:/tb_alu/UUT/DISPLAY/o_seg \
+sim:/tb_alu/UUT/DISPLAY/w_display
+run
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/ie704453/Desktop/HDL_Code/Practicas/practica1/modelsim_project/wave.do
